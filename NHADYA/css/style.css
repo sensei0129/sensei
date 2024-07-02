@@ -1,0 +1,206 @@
+
+*,::after,::before{
+	margin: 0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+body {
+	background: url('bckground.jpeg') no-repeat;
+	background-size: 1450px 1000px;
+}
+
+.nav{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 30px;
+}
+
+.nav .logo h1{
+	font-weight: 600;
+	font-family: sans-serif;
+	color: gray;
+}
+
+.nav .logo b{
+	color: white;
+}
+
+.nav ul{
+	display: flex;
+	list-style: none;
+}
+
+.nav ul li{
+	margin-right: 30px;
+}
+
+.nav ul li a{
+	text-decoration: none;
+	color: white;
+	font-weight: 500;
+	font-family: sans-seref;
+	font-size: 17px;
+}
+
+ul li a:hover{
+	background-color: gray;
+	color: #000;
+	border: 1px solid #fff;
+	padding: 5px 20px;
+	color: #fff;
+	text-decoration: none;
+}
+
+
+
+input{
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.fb{
+    background: transparent;
+    border: none;
+	color: white;
+}
+
+.ig{
+    background-color: white;
+    color: black;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+.content{
+    display: grid;
+    grid-template-columns: 50% auto;
+    gap: 30px;
+    margin-top: 120px;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.content .content-left{
+    display: block;
+    width: 100%;
+}
+
+.content .content-left .info{
+    max-width: block;
+    display: flex;
+    flex-direction: column;
+}
+
+.content .content-left .info h2{
+    font-size: 60px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 30px;
+	color: white;
+}
+
+.content .content-left .info p{
+    font-size: 23px;
+    line-height: 2pc;
+    margin-bottom: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.content .content-left button{
+    padding: 10px 23px;
+    background-color: #df6dee;
+    color: #ffffff;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.category{
+    width: 100px;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.category .list-items{
+    width: 20%;
+    position: relative;
+    margin-top: 50px;
+}
+
+.category .list-items h3{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: sans-serif;
+    margin-bottom: 80px;
+}
+
+.category .list-items .card-list{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.category .card-list .card{
+    width: 250px;
+    height: auto;
+    display: block;
+    padding: 10px;
+    border-radius: 40px;
+    position: relative;
+    background: #ffffff;
+    outline: 2px solid #a934cc;
+
+}
+
+.category .card-list .card img{
+    width: 100px;
+    height: auto;
+    bottom: 180px;
+    left: 70px;
+    object-fit: cover;
+    object-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    box-shadow: 0 20px 20px #df6dee;
+    border-radius: 50%;
+}
+
+.category .card-list .card .Destination{
+    padding: 40px 0 10px;
+}
+
+.category .card-list .card .Destination h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+.category .card .Bora p{
+    font-size: 13px;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+}
+
+.category .card .bora{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+    border-radius: 20px;
+    background-color: #df6dee;
+}
+
+
